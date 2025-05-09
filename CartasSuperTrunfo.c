@@ -124,42 +124,5 @@ int main() {
 
     printf("super poder carta 2: %.3f\n", super_poder_carta2);
 
-    //Comparacao das cartas
-
-         if (populacao1 > populacao2){
-            printf("População: Carta 1 venceu!\n");
-         } else {
-           printf("População: Carta 2 venceu!\n");
-         }
-         if (tamanho1 > tamanho2){
-            printf("Tamanho: Carta 1 venceu!\n");
-         } else {
-           printf("Tamanho: Carta 2 venceu!\n");
-         }
-         if (pib1 > pib2){
-            printf("PIB: Carta 1 venceu!\n");
-         } else {
-           printf("PIB: Carta 2 venceu!\n");
-         }
-         if (pontos_turisticos1 > pontos_turisticos2){
-            printf("Pontos Turísticos: Carta 1 venceu!\n");
-         } else {
-           printf("Pontos Turísticos: Carta 2 venceu!\n");
-         }
-         if (densidade1 > densidade2){
-            printf("Densidade Populacional: Carta 1 venceu!\n");
-         } else {
-           printf("Densidade Populacional: Carta 2 venceu!\n");
-         }
-         if (pibpercapita1 > pibpercapita2){
-            printf("PIB per capita: Carta 1 venceu!\n");
-         } else {
-          printf("PIB per capita: Carta 2 venceu!\n");
-         }
-         if (super_poder_carta1 > super_poder_carta2){
-            printf("Super Poder: Carta 1 venceu!\n");
-           } else {
-          printf("Super Poder: Carta 2 venceu!\n");
-
     return 0;
 }
